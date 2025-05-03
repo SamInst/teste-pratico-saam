@@ -15,6 +15,7 @@ import java.util.Locale;
 import static java.lang.Double.parseDouble;
 
 public class Main extends JFrame {
+
     private JLayeredPane fundo;
     private final DecimalFormat formatoDecimal = new DecimalFormat("##0.###", DecimalFormatSymbols.getInstance(Locale.US));
     private MigLayout migLayout;
